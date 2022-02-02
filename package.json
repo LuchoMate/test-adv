@@ -1,0 +1,16 @@
+{
+  "name": "advances-jobs",
+  "version": "1.0.0",
+  "description": "advances-jobs",
+  "main": "handler.js",
+  "scripts": {
+    "start": "sls invoke local -f jobs"
+  },
+  "keywords": [],
+  "author": "Luis Balladares",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "mongodb": "^4.3.1"
+  }
+}
